@@ -1,0 +1,31 @@
+footer{
+  height:500px;
+  background-color: #f5f6f7;
+}
+.gap_area{height: 150px;
+margin: none;
+}
+.Privacy_Policy_detail{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px; 
+  margin-bottom: 15px;
+}
+.Head_Privacy_Policy{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 15px;
+  margin-bottom:2px;
+}
+footer .contact{
+  display: flex;
+  flex-direction: row;
+}
+footer .aboutUs_LinkedInimg{height: 50px;
+margin-left: 40px;
+}
+footer .aboutUs_LinkedInimg:hover{
+  cursor: pointer;
+}
+footer .terms_information{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 13px;
+}

@@ -1,0 +1,100 @@
+
+.Main_paragraph_flex{
+  display: flex;
+  flex-direction: column;
+}
+
+.Non-fiction, .fiction, .Textbooks{
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.book_information{
+  left: 70px;
+  width: 25%;
+  position: relative;
+}
+.book_image{
+  height: 250px;
+  width: 180px;
+}
+.book_button{
+  width:135px;
+  color: rgb(33, 33, 33);
+  background-color: rgb(255, 216, 20);
+  border: solid rgb(252, 210, 0);
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(213, 217, 217, 0.5);
+}
+.book_button:hover{
+  opacity: 80%;
+}
+.video_section{
+  margin-top: -90px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 480px;
+  align-items: center;
+}
+.video_section_comment{
+  width: 100%;
+  background-color: rgba(102, 0, 51, 0.757);
+  color: rgb(246, 251, 255);
+  font-family: cursive;
+}
+.video_section_comment_letter{
+  color: rgb(246, 251, 255);
+  font-family: cursive;
+}
+.main_video{
+  width: 500px;
+  height: 350px;
+}
+
+.Maincategories_title{
+  color: #333333d1;
+  border-width: 10px;
+  margin: 0px;
+  font-size: 35px;
+  font-family: cursive;
+}
+.title_borderline{
+  border-color: #c49cde;
+  border-width: 3px;
+}
+
+@media screen and (max-width: 768px) {
+  .Non-fiction, .fiction, .Textbooks {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: auto; 
+  }
+  .book_information {
+    margin-bottom: 20px; 
+  }
+
+  .book_image {
+    width: 150px;
+  }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .Non-fiction, .fiction, .Textbooks {
+      flex-direction: row;
+    }
+    .book_button {
+      width:90px;
+    }
+    .book_image {
+      height: 140px;
+      width: auto;
+    }
+    .book_rating img{
+      width: 100px;
+    }
+  
+  }
