@@ -81,6 +81,12 @@
   .book_image {
     width: 150px;
   }
+  .book_rating img{
+    width: 140px;
+  }
+  .book_rating img{
+    width: 100px;
+  }
   }
   @media screen and (min-width: 768px) and (max-width: 992px) {
     .Non-fiction, .fiction, .Textbooks {
