@@ -130,6 +130,13 @@ font-family: Georgia, "Times New Roman", serif;
   left:75%;
 }
 
+.searchbox_label{
+  font-family: Georgia, "Times New Roman", serif;
+  position: absolute;
+  color:#C2714F;
+  top:40px;
+  left:280px;
+}
 
 
 
