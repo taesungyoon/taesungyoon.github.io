@@ -10,20 +10,18 @@ margin: none;
   font-size: 13px; 
   margin-bottom: 15px;
 }
+.footer_detail_area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer_detail_area a{
+  margin-right: 45px;
+}
 .Head_Privacy_Policy{
   font-family: Georgia, "Times New Roman", serif;
   font-size: 15px;
   margin-bottom:2px;
-}
-footer .contact{
-  display: flex;
-  flex-direction: row;
-}
-footer .aboutUs_LinkedInimg{height: 50px;
-margin-left: 40px;
-}
-footer .aboutUs_LinkedInimg:hover{
-  cursor: pointer;
 }
 footer .terms_information{
   font-family: Georgia, "Times New Roman", serif;
