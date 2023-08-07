@@ -52,6 +52,7 @@ font-family: Georgia, "Times New Roman", serif;
   background-color:#C2714F;
   opacity: 1.0;
 }
+/*Implement functions to Javascript*/
 #main_header_searchbox{
   position: absolute;
   top:55px;
@@ -137,7 +138,7 @@ font-family: Georgia, "Times New Roman", serif;
   left:280px;
 }
 
-
+/* Mediaquery functions for mobile devides ~768px*/
 
 @media screen and (max-width: 768px) {
   #main_header_searchbox {
@@ -161,6 +162,7 @@ font-family: Georgia, "Times New Roman", serif;
   }
 
 }
+/* Mediaquery functions for mobile devides 768~992px*/
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .montlyBestseller{
     display: none;
