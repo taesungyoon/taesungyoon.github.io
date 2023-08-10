@@ -148,7 +148,9 @@ font-family: Georgia, "Times New Roman", serif;
   .montlyBestseller{
     display: none;
   }
-  .header_buttons {
+  .header_buttons { /*Using grid style to display*/
+    z-index: 1;
+    
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -179,7 +181,8 @@ font-family: Georgia, "Times New Roman", serif;
   .header_nav_buttons{
     top:-150px;
   }
-  .header_buttons {
+  .header_buttons {/*Using grid style to display*/
+    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
