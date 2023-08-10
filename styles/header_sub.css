@@ -149,8 +149,6 @@ font-family: Georgia, "Times New Roman", serif;
     display: none;
   }
   .header_buttons { /*Using grid style to display*/
-    z-index: 1;
-    
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -182,7 +180,6 @@ font-family: Georgia, "Times New Roman", serif;
     top:-150px;
   }
   .header_buttons {/*Using grid style to display*/
-    z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
